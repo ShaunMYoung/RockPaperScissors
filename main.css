@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(125, 125, 125);
+    font-family: Arial;
+    margin-top: 5vw;
+}
+.header {
+    font-size: 25pt;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 50pt;
+}
+.pscore {
+    float: left;
+    margin-left: 17%;
+    border: 5px solid rgb(143, 63, 63);
+}
+.cscore {
+    float: right;
+    margin-right: 17%;
+    border: 5px solid rgb(143, 63, 63);
+}
+.msg{
+    text-align: center;
+    padding-top: 8%;
+}
+#rock {
+    width: 200px;
+    height:150px;
+    margin-left: 5%;
+}
+#paper {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 200px;
+}
+#scissors {
+    height: 170px;
+    margin-right: 5%;
+}
+.choice {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
