@@ -20,7 +20,7 @@ function play(playerChoice, compChoice) {
     switch (playerChoice) {
         case 'rock':
          if (compChoice === 'paper') {
-             msg.textContent = 'Computer chose Paper, You Lose!';
+             msg.textContent = 'Computer chose Paper. You Lose!';
              score[0]++;
              pscore.textContent = `${score[1]}`;
              cscore.textContent = `${score[0]}`;
@@ -37,7 +37,7 @@ function play(playerChoice, compChoice) {
          break;
          case 'paper':
          if (compChoice === 'scissors') {
-             msg.textContent = 'Computer chose Scissors, You Lose!';
+             msg.textContent = 'Computer chose Scissors. You Lose!';
              score[0]++;
              pscore.textContent = `${score[1]}`;
              cscore.textContent = `${score[0]}`;
@@ -54,7 +54,7 @@ function play(playerChoice, compChoice) {
          break;
          case 'scissors':
          if (compChoice === 'rock') {
-             msg.textContent = 'Computer chose Rock, You Lose!';
+             msg.textContent = 'Computer chose Rock. You Lose!';
              score[0]++;
              pscore.textContent = `${score[1]}`;
              cscore.textContent = `${score[0]}`;
