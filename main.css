@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(125, 125, 125);
+    justify-content: center;
+    background-color: rgb(68, 218, 198);
     font-family: Arial;
     margin-top: 5vw;
 }
@@ -7,36 +8,43 @@ body {
     font-size: 25pt;
 }
 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: %;
     font-size: 50pt;
 }
 .pscore {
+    justify-content: center;
     float: left;
     margin-left: 17%;
-    border: 5px solid rgb(143, 63, 63);
+    border: 5px solid rgb(228, 78, 78);
+    font-size: 23pt;
 }
 .cscore {
+    justify-content: center;
     float: right;
     margin-right: 17%;
-    border: 5px solid rgb(143, 63, 63);
+    border: 5px solid rgb(228, 78, 78);
+    font-size: 23pt;
 }
 .msg{
     text-align: center;
     padding-top: 8%;
+    font-size: 30pt;
 }
 #rock {
-    width: 200px;
-    height:150px;
+    width: 15vh;
+    height:15vh;
     margin-left: 5%;
 }
 #paper {
     margin-left: 5%;
     margin-right: 5%;
-    height: 200px;
+    height: 15vh;
 }
 #scissors {
-    height: 170px;
+    height: 15vh;
     margin-right: 5%;
 }
 .choice {
