@@ -33,7 +33,7 @@ h1 {
 .msg{
     text-align: center;
     padding-top: 8%;
-    font-size: 20pt;
+    font-size: 27pt !important;
     color: white;
 }
 #rock {
